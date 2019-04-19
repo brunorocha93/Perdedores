@@ -1,0 +1,7 @@
+C:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Release\Modelo.dll
+C:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Release\Modelo.pdb
+C:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Release\Utiles.dll
+C:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Release\Utiles.pdb
+C:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Release\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Release\Modelo.dll
+C:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Release\Modelo.pdb

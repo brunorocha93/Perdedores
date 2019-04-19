@@ -1,0 +1,5 @@
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Utiles\bin\Debug\Utiles.dll
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Utiles\bin\Debug\Utiles.pdb
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Utiles\obj\Debug\Utiles.csprojResolveAssemblyReference.cache
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Utiles\obj\Debug\Utiles.dll
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Utiles\obj\Debug\Utiles.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CedimWeb", "CedimWeb\CedimWeb.csproj", "{721BD61F-4F5D-4065-B7E9-2110103DB5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{27F62E53-5383-4F5C-A2E0-057BA64B8103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utiles", "Utiles\Utiles.csproj", "{88996F02-8461-4C17-9E70-CC4BAC46B884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{721BD61F-4F5D-4065-B7E9-2110103DB5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721BD61F-4F5D-4065-B7E9-2110103DB5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721BD61F-4F5D-4065-B7E9-2110103DB5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721BD61F-4F5D-4065-B7E9-2110103DB5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F62E53-5383-4F5C-A2E0-057BA64B8103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F62E53-5383-4F5C-A2E0-057BA64B8103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F62E53-5383-4F5C-A2E0-057BA64B8103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F62E53-5383-4F5C-A2E0-057BA64B8103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88996F02-8461-4C17-9E70-CC4BAC46B884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88996F02-8461-4C17-9E70-CC4BAC46B884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88996F02-8461-4C17-9E70-CC4BAC46B884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88996F02-8461-4C17-9E70-CC4BAC46B884}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Debug\Modelo.dll
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Debug\Modelo.pdb
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Debug\Modelo.dll
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Debug\Modelo.pdb
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Debug\Utiles.dll
+c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Debug\Utiles.pdb

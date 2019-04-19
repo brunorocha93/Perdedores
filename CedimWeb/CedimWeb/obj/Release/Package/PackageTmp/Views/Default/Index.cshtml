@@ -1,0 +1,111 @@
+﻿@model List<Modelo.Paciente>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+                $(function () {
+                    $.get("/Default/GetClientes", {}, function (data) {
+                        var row;
+                        var est;
+                        $.each(data, function (i, v) {
+                            if (v.Estado == 1)
+                                 est = 'Activo'
+                            else
+                                 est = 'Inactivo'
+                            row += "<tr><td>" + v.ID_Paciente + "</td><td>" + v.Nombre + "</td><td>" + v.Apellido + "</td><td>" + v.Sexo + "</td><td>" + v.Fecha_Nacimiento + "</td><td>" + v.Email + "</td><td>" + v.CI + "</td><td>" + v.Direccion + "</td><td>" + v.Telefono + "</td><td>" + est + "</td></tr>>"
+                        });
+                        $("#tblcliente").append(row);
+                    })
+                })
+    </script>
+   
+</head>
+
+    <body>
+        <<div class="container">
+    <div class="row ">
+        <div class="col">
+            <h2>Libros</h2>
+            <p class="text-right">
+                @Html.ActionLink("Nuevo", "New", null, new { @class = "btn btn-primary" })
+            </p>
+            <table class="table table-bordered table-striped table-dark text-center"id="tblcliente">
+                <thead class="">
+                    <tr>
+                        <th class="text-center " scope="col">IDPaciente</th>
+                        <th class="text-center ">Nombre</th>
+                        <th class="text-center ">Apellido</th>
+                        <th class="text-center ">Sexo</th>
+                        <th class="text-center ">Fecha Nacimiento</th>
+                        <th class="text-center ">Email</th>
+                        <th class="text-center ">CI</th>
+                        <th class="text-center ">Direccion</th>
+                        <th class="text-center ">Telefono</th>
+                        <th class="text-center ">Estado</th>
+                        
+                    </tr>
+                </thead>
+
+              @*   <tbody>
+                  @foreach (var paciente in Model)
+                    {
+            <tr class="">
+                <td scope="row">@Html.DisplayFor(model => paciente.ID_Paciente)</td>
+                <td>@Html.DisplayFor(model => paciente.Nombre)</td>
+                <td>@Html.DisplayFor(model => paciente.Apellido)</td>
+                <td>@Html.DisplayFor(model => paciente.Sexo)</td>
+                <td>@Html.DisplayFor(model => paciente  .Fecha_Nacimiento)</td>
+                <td>@Html.DisplayFor(model => paciente.Email)</td>
+                <td>@Html.DisplayFor(model => paciente.CI)</td>
+                <td>@Html.DisplayFor(model => paciente.Direccion)</td>
+                <td>@Html.DisplayFor(model => paciente.Telefono)</td>
+                <td>@Html.DisplayFor(model => paciente.Estado)</td>
+
+
+               @* @using (Html.BeginForm("delete", "Libros", new { id = item.idLibro }))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.ActionLink("Editar", "edit", new { id = item.idLibro }, new { @class = "btn btn-success" })
+                    <input type="submit" value="Borrar" class="btn btn-danger" data-toggle="confirmation" />
+                }
+
+        </tr>
+        }
+
+    </tbody>*@
+                
+            </table>
+            <script type="text/javascript">
+                $(function () {
+                    $.get("/Default/GetClientes", {}, function (data) {
+                        var row;
+                        $.each(data, function (i, v) {
+                            row += "<tr><td>" + v.ID_Paciente + "</td><td>" + v.Nombre + "</td><td>" + v.Apellido + "</td><td>" + v.Sexo + "</td><td>" + v.Fecha_Nacimiento + "</td><td>" + v.Email + "</td><td>" + v.CI + "</td><td>" + v.Direccion + "</td><td>" + v.Telefono + "</td><td>" + v.Estado + "</td></tr>>"
+                        });
+                        $("#tblcliente").append(row);
+                    })
+                })
+            </script>
+        </div>
+    </div>
+</div>
+
+   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
