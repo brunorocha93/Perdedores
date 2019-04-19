@@ -69,7 +69,7 @@ namespace Modelo
             OleDbConnection cone = Conectar();
             try
             {
-                cone.Open();
+               
                 OleDbCommand comm = new OleDbCommand();
                 comm.Connection = cone;
                 comm.CommandText = "SELECT Login,Nombre,Apellido FROM Usuario WHERE ID_Usuario = ?";
@@ -82,7 +82,7 @@ namespace Modelo
                     string l = reader.GetString(1);
                     string n = reader.GetString(2);
                     string a = reader.GetString(3);
-                    u = new Usuario(0, l, n, );
+                    u = new Usuario(i, l, n, a);
                 }
                 
             }
@@ -95,7 +95,7 @@ namespace Modelo
             {
                 cone.Close();
             }
-            return u
+            return u;
         }
     }
 }

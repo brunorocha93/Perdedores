@@ -41,3 +41,46 @@ c:\users\paulo\documents\visual studio 2015\Projects\CedimWeb\CedimWeb\obj\Debug
 c:\users\paulo\documents\visual studio 2015\Projects\CedimWeb\CedimWeb\obj\Debug\CedimWeb.pdb
 c:\users\paulo\documents\visual studio 2015\Projects\CedimWeb\CedimWeb\bin\Utiles.dll
 c:\users\paulo\documents\visual studio 2015\Projects\CedimWeb\CedimWeb\bin\Utiles.pdb
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\csc.exe
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\vbc.exe
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\CedimWeb.dll.config
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\CedimWeb.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\CedimWeb.pdb
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\Modelo.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Helpers.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Mvc.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Razor.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Webpages.Deployment.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Webpages.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Webpages.Razor.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\Utiles.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\Modelo.pdb
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\Utiles.pdb
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Razor.xml
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Webpages.xml
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Webpages.Deployment.xml
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Webpages.Razor.xml
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Helpers.xml
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\System.Web.Mvc.xml
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\es\System.Web.Razor.resources.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\es\System.Web.Webpages.resources.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\es\System.Web.Helpers.resources.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\bin\es\System.Web.Mvc.resources.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\obj\Debug\CedimWeb.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\obj\Debug\CedimWeb.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\CedimWeb\obj\Debug\CedimWeb.pdb

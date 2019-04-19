@@ -5,3 +5,10 @@ c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Debug\M
 c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\obj\Debug\Modelo.pdb
 c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Debug\Utiles.dll
 c:\Users\paulo\documents\visual studio 2015\Projects\CedimWeb\Modelo\bin\Debug\Utiles.pdb
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\Modelo\bin\Debug\Modelo.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\Modelo\bin\Debug\Modelo.pdb
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\Modelo\bin\Debug\Utiles.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\Modelo\bin\Debug\Utiles.pdb
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\Modelo\obj\Debug\Modelo.dll
+C:\Users\paulo\Source\Repos\brunorocha93\Perdedores\CedimWeb\Modelo\obj\Debug\Modelo.pdb
