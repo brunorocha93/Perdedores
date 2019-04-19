@@ -12,8 +12,9 @@ namespace Modelo
         public OleDbConnection Conectar()
         {
             //string cadena = "Provider=SQLNCLI11;Data Source=SERVER;Persist Security Info=True;User ID=CedimAdmin;Initial Catalog="+Program.DB+";Pwd=Cedim2016;";
-            string cadena = "Provider=SQLNCLI11;Data Source=DESKTOP-O6KUEE9\\CEDIM;Persist Security Info=True;User ID=sa;Initial Catalog=" + "DBCedim2019"+ ";Pwd=123;";
+            string cadena = "Provider=SQLNCLI11;Data Source=DESKTOP-MRIFU3O;Persist Security Info=True;User ID=sa;Initial Catalog=" + "DBCedim2019"+ ";Pwd=root;";
             //string cadena = "Provider=SQLNCLI11;Data Source=RODRIGO-PERSONA\\SERVER;Persist Security Info=True;User ID=sa;Initial Catalog=" + Program.DB + ";Pwd=123;";
+            //Data Source=DESKTOP-MRIFU3O;Initial Catalog=DBCedim2019;User ID=sa
             OleDbConnection cone = new OleDbConnection(cadena);
             try
             {
