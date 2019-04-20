@@ -1,51 +1,86 @@
 ﻿
 @{
+    Layout = null;
     ViewBag.Title = "Autenticacion";
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kodinger">
+    <title>My Login Page &mdash; Bootstrap 4 Login Page Snippet</title>
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/css/my-login.css" rel="stylesheet" />
+</head>
+<body class="my-login-page">
+    <section class="h-100">
+        <div class="container h-100">
+            <div class="row justify-content-md-center h-100">
+                <div class="card-wrapper">
+                    <div class="brand">
+                        <img src="~/Content/img/logo.jpg" />
+                    </div>
+                    <div class="card fat">
+                        <div class="card-body">
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link href="~/Content/css/estilos.css" rel="stylesheet" />
+                            <h4 class="card-title">Login</h4>
+                            @using (Html.BeginForm("Autenticar", "Login", FormMethod.Post, new { @class = "loginForm" }))
+                            {
 
-<div class="grandParentContainer">
-    <div class="parentContainer">
-        <div align="center">
-            @if (ViewBag.message != null)
-            {
-                <div class="alert alert-warning alert-dismissible fade in">
-                    <a href="#" class="close" data-dissmiss="alert" aria-label="close">&times;</a>
+                                <div class="form-group">
+                                    <label for="email">Usuario</label>
+
+                                    <input id="email" type="text" class="form-control" name="usuario" value="" required autofocus>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">
+                                        Password
+                                        <a href="forgot.html" class="float-right">
+                                            Forgot Password?
+                                        </a>
+                                    </label>
+                                    <input id="password" type="password" class="form-control" name="password" required data-eye>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>
+                                        <input type="checkbox" name="remember"> Remember Me
+                                    </label>
+                                </div>
+
+                                <div class="form-group no-margin">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        Login
+                                    </button>
+                                </div>
+
+                            }
+                        </div>
+                    </div>
                     <strong>
-                        @ViewBag.message
+                       <p>dasdasdsad</p>
                     </strong>
+                    @if (ViewBag.message != null)
+                    {
+                        <div class="alert alert-warning alert-dismissible fade in">
+                            <a href="#" class="close" data-dissmiss="alert" aria-label="close">&times;</a>
+                            <strong>
+                                <p>@ViewBag.message</p>
+                                
+                            </strong>
+                        </div>
+                    }
+                    <div class="footer">
+                        Copyright &copy; Your Company 2017
+                    </div>
                 </div>
-
-            }
-            
-                @using (Html.BeginForm("Autenticar", "Login", FormMethod.Post, new { @class = "loginForm" }))
-                {
-               
-                        <h2>LOGIN</h2>
-                        <div class="form-group">
-                            <label for="Usuario" class="col-sm-3 control-label">Usuario </label>
-                            <div class="col-sm-9">
-                                <input type="text" name="usuario" id="usuario" placeholder="Usuario" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="password" class="col-sm-3 control-label">Password</label>
-                            <div class="col-sm-9">
-                                <input type="password" name="password" id="password" placeholder="Password" class="form-control">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Login</button>
-               
-                }
-          
+            </div>
         </div>
-    </div>
-</div>
+    </section>
+
+    <script src="~/Content/js/jquery.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/my-login.js"></script>
+</body>
+</html>

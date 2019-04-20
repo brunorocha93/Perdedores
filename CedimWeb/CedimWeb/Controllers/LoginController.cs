@@ -25,7 +25,7 @@ namespace CedimWeb.Controllers
             }
             else//error
             {
-                ViewBag.message = "Credendicales Incorrectas";
+                ViewBag.message = "Credendiciales Incorrectas";
                 return View("~/Views/Login/Index.cshtml");
                
             }
